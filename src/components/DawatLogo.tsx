@@ -4,7 +4,7 @@ export const DawatLogo = () => {
       <img
         src="/images/logo/logo.svg"
         alt="Dawat"
-        className="h-12 w-auto md:h-16"
+        className="h-10 w-auto md:h-16"
       />
     </a>
   );

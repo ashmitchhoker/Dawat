@@ -26,7 +26,7 @@ export const ContactSection = () => {
             </div>
             <div className="w-full h-[300px] bg-gray-100 rounded-lg overflow-hidden border border-gray-200">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4116521323063!2d78.4722880751662!3d17.36680408351582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb978a6e118329%3A0x6339903c735d4621!2sHotel%20Shadab!5e0!3m2!1sen!2sin!4v1709658000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps?q=Dawat%20Restaurant&ll=23.196036,72.6333888&z=17&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -52,13 +52,16 @@ export const ContactSection = () => {
             </div>
 
             <div className="space-y-4 flex-grow">
-              <HourRow day="Monday" time="05:00 AM - 11:00 PM" />
-              <HourRow day="Tuesday" time="05:00 AM - 11:00 PM" isHighlight />
-              <HourRow day="Wednesday" time="05:00 AM - 11:00 PM" />
-              <HourRow day="Thursday" time="05:00 AM - 11:00 PM" />
-              <HourRow day="Friday" time="05:00 AM - 11:00 PM" />
-              <HourRow day="Saturday" time="05:00 AM - 11:00 PM" />
-              <HourRow day="Sunday" time="05:00 AM - 11:00 PM" />
+              <HourRow day="Monday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
+              <HourRow day="Tuesday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
+              <HourRow
+                day="Wednesday"
+                time="11:30 AM – 3:30 PM, 6:30 – 11 PM"
+              />
+              <HourRow day="Thursday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
+              <HourRow day="Friday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
+              <HourRow day="Saturday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
+              <HourRow day="Sunday" time="11:30 AM – 3:30 PM, 6:30 – 11 PM" />
             </div>
           </div>
         </div>
