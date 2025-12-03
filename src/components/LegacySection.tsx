@@ -54,8 +54,12 @@ export const LegacySection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] via-transparent to-transparent opacity-70"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-white">
-                    <p className="font-serif text-sm font-semibold">Rafiq Bhai</p>
-                    <p className="text-xs text-[#c5a059]">Founder & Visionary</p>
+                    <p className="font-serif text-sm font-semibold">
+                      Rafiq Bhai
+                    </p>
+                    <p className="text-xs text-[#c5a059]">
+                      Founder & Visionary
+                    </p>
                   </div>
                 </div>
 
@@ -67,8 +71,12 @@ export const LegacySection = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] via-transparent to-transparent opacity-70"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-white">
-                    <p className="font-serif text-sm font-semibold">Dawat Restaurant</p>
-                    <p className="text-xs text-[#c5a059]">Infocity, Gandhinagar</p>
+                    <p className="font-serif text-sm font-semibold">
+                      Dawat Restaurant
+                    </p>
+                    <p className="text-xs text-[#c5a059]">
+                      Infocity, Gandhinagar
+                    </p>
                   </div>
                 </div>
               </div>
@@ -77,11 +85,8 @@ export const LegacySection = () => {
                 <div className="bg-[#0a192f] p-8 text-white">
                   <div className="flex items-center gap-3 mb-4 text-[#c5a059]">
                     <Award size={32} />
-                    <span className="text-lg font-serif italic">
-                      Est. 2006
-                    </span>
+                    <span className="text-lg font-serif italic">Est. 2006</span>
                   </div>
-                  <p className="font-serif text-xl leading-snug">
                   <p className="font-serif text-xl leading-snug">
                     "Each plate carries not just flavor, but fragments of a
                     journey."
@@ -89,7 +94,6 @@ export const LegacySection = () => {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-6 shadow-lg rounded border-t-4 border-[#c5a059]">
                   <ChefHat className="text-[#0a192f] mb-2" size={24} />
