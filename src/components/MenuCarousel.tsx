@@ -70,7 +70,7 @@ export const MenuCarousel = () => {
         {getVisibleData().map((img, idx) => (
           <div
             key={idx}
-            className="bg-white p-0 rounded-sm shadow-2xl border-4 border-[#0a192f] flex flex-col h-[800px] overflow-hidden transform hover:scale-[1.01] transition-transform duration-300"
+            className="bg-white p-0 rounded-sm shadow-2xl border-4 border-[#0a192f] flex flex-col h-[720px] overflow-hidden transform hover:scale-[1.01] transition-transform duration-300"
           >
             <div className="bg-[#0a192f] text-[#c5a059] text-center py-2 text-xs font-serif uppercase tracking-widest border-b border-[#c5a059]">
               {img.title}

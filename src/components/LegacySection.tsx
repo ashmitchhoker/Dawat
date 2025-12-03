@@ -48,7 +48,7 @@ export const LegacySection = () => {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="relative group rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="/images/gallery/IMG-20250529-WA0072.jpg"
+                    src="/images/founder/Rafiq_Bhai.jpg"
                     alt="Rafiq Bhai - Founder"
                     className="w-full h-[280px] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
@@ -82,12 +82,14 @@ export const LegacySection = () => {
                     </span>
                   </div>
                   <p className="font-serif text-xl leading-snug">
+                  <p className="font-serif text-xl leading-snug">
                     "Each plate carries not just flavor, but fragments of a
                     journey."
                   </p>
                 </div>
               </div>
 
+              <div className="grid grid-cols-2 gap-4">
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-6 shadow-lg rounded border-t-4 border-[#c5a059]">
                   <ChefHat className="text-[#0a192f] mb-2" size={24} />

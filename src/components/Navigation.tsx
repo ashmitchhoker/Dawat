@@ -5,6 +5,7 @@ import { DawatLogo } from "./DawatLogo";
 export const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isOrderOpen, setIsOrderOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,10 +62,17 @@ export const Navigation = () => {
         </div>
 
         <div className="hidden lg:inline-block relative group">
-          <button className="bg-white text-[#d62828] font-bold px-8 py-3 uppercase tracking-widest text-xs hover:bg-gray-100 transition-all shadow-lg">
+          <button
+            className="bg-white text-[#d62828] font-bold px-8 py-3 uppercase tracking-widest text-xs hover:bg-gray-100 transition-all shadow-lg"
+            onClick={() => setIsOrderOpen((v) => !v)}
+          >
             Order Online
           </button>
-          <div className="absolute left-0 top-full translate-y-1 hidden group-hover:block bg-white/95 backdrop-blur-sm rounded-none shadow-xl p-3 border border-gray-200 w-full">
+          <div
+            className={`absolute left-0 top-full translate-y-1 ${
+              isOrderOpen ? "block" : "hidden"
+            } group-hover:block bg-white/95 backdrop-blur-sm rounded-none shadow-xl p-3 border border-gray-200 w-full`}
+          >
             <div className="flex flex-col items-center space-y-3">
               <a
                 href="https://www.swiggy.com/menu/45256?source=sharing"
@@ -119,10 +127,43 @@ export const Navigation = () => {
           <a href="/#contact" className="block hover:text-[#c5a059]">
             Contact
           </a>
-          <div className="pt-4">
-            <button className="bg-white text-[#d62828] font-bold px-6 py-3 w-full uppercase tracking-widest text-xs">
+          <div className="pt-4 relative">
+            <button
+              className="bg-white text-[#d62828] font-bold px-6 py-3 w-full uppercase tracking-widest text-xs"
+              onClick={() => setIsOrderOpen((v) => !v)}
+            >
               Order Online
             </button>
+            {isOrderOpen && (
+              <div className="mt-2 bg-white/95 backdrop-blur-sm rounded-none shadow-xl p-3 border border-gray-200 w-full">
+                <div className="flex flex-col items-center space-y-3">
+                  <a
+                    href="https://www.swiggy.com/menu/45256?source=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-fit hover:opacity-80 transition-opacity"
+                  >
+                    <img
+                      src="/images/logo/swiggy.svg"
+                      alt="Swiggy"
+                      className="h-8"
+                    />
+                  </a>
+                  <a
+                    href="https://zomato.onelink.me/xqzv/4clvu9ai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-fit hover:opacity-80 transition-opacity"
+                  >
+                    <img
+                      src="/images/logo/zomato.svg"
+                      alt="Zomato"
+                      className="h-8"
+                    />
+                  </a>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}
