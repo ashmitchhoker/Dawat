@@ -4,6 +4,7 @@ import { SafetyBanner } from "./components/SafetyBanner";
 import { LegacySection } from "./components/LegacySection";
 import { MenuSection } from "./components/MenuSection";
 import { GallerySection } from "./components/GallerySection";
+import { TestimonialsSection } from "./components/Testimonials";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
 
@@ -16,6 +17,7 @@ function App() {
       <LegacySection />
       <MenuSection />
       <GallerySection />
+      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>
