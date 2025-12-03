@@ -45,28 +45,50 @@ export const LegacySection = () => {
 
           <div className="w-full md:w-1/2 order-1 md:order-2 relative">
             <div className="sticky top-24">
-              <div className="relative group rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop"
-                  alt="Restaurant Interior"
-                  className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] via-transparent to-transparent opacity-80"></div>
-                <div className="absolute bottom-8 left-8 right-8 text-white">
+              <div className="grid grid-cols-2 gap-4 mb-6">
+                <div className="relative group rounded-lg overflow-hidden shadow-2xl">
+                  <img
+                    src="/images/gallery/IMG-20250529-WA0072.jpg"
+                    alt="Rafiq Bhai - Founder"
+                    className="w-full h-[280px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] via-transparent to-transparent opacity-70"></div>
+                  <div className="absolute bottom-4 left-4 right-4 text-white">
+                    <p className="font-serif text-sm font-semibold">Rafiq Bhai</p>
+                    <p className="text-xs text-[#c5a059]">Founder & Visionary</p>
+                  </div>
+                </div>
+
+                <div className="relative group rounded-lg overflow-hidden shadow-2xl">
+                  <img
+                    src="/images/gallery/r4.jpg"
+                    alt="Dawat Restaurant"
+                    className="w-full h-[280px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0a192f] via-transparent to-transparent opacity-70"></div>
+                  <div className="absolute bottom-4 left-4 right-4 text-white">
+                    <p className="font-serif text-sm font-semibold">Dawat Restaurant</p>
+                    <p className="text-xs text-[#c5a059]">Infocity, Gandhinagar</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative group rounded-lg overflow-hidden shadow-2xl mb-6">
+                <div className="bg-[#0a192f] p-8 text-white">
                   <div className="flex items-center gap-3 mb-4 text-[#c5a059]">
                     <Award size={32} />
                     <span className="text-lg font-serif italic">
                       Est. 2006
                     </span>
                   </div>
-                  <p className="font-serif text-2xl leading-snug">
+                  <p className="font-serif text-xl leading-snug">
                     "Each plate carries not just flavor, but fragments of a
                     journey."
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4 mt-6">
+              <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white p-6 shadow-lg rounded border-t-4 border-[#c5a059]">
                   <ChefHat className="text-[#0a192f] mb-2" size={24} />
                   <h4 className="font-bold text-2xl text-[#c5a059]">18+</h4>
