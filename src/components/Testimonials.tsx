@@ -42,7 +42,7 @@ export const TestimonialsSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % TESTIMONIALS.length);
-    }, 5000);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 

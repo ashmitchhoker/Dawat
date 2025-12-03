@@ -22,7 +22,7 @@ export const GallerySection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % foodImages.length);
-    }, 4000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [foodImages.length]);
 
