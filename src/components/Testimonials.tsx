@@ -12,18 +12,18 @@ interface Testimonial {
 const TESTIMONIALS: Testimonial[] = [
   {
     id: "1",
-    customer_name: "Rajesh Kumar",
-    customer_role: "IIT Gandhinagar Faculty",
+    customer_name: "Ashmit Chhoker",
+    customer_role: "Food Vlogger",
     testimonial_text:
       "Dawat has been our go-to restaurant for authentic flavors. The quality and taste are consistently excellent. Highly recommend their biryani!",
     rating: 5,
   },
   {
     id: "2",
-    customer_name: "Priya Mehta",
-    customer_role: "GIFT City Professional",
+    customer_name: "Neerja Kasture",
+    customer_role: "IIT Gandhinagar student",
     testimonial_text:
-      "Amazing food and great service! The ambiance is perfect for family gatherings. Their non-veg dishes are absolutely delicious.",
+      "Amazing food and great service! Their non-veg dishes are absolutely delicious. Their shawarma is a must-try!",
     rating: 5,
   },
   {
@@ -42,7 +42,7 @@ export const TestimonialsSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % TESTIMONIALS.length);
-    }, 3000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 
