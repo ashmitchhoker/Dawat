@@ -64,24 +64,11 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#c5a059] transition-colors">
-                  Franchise
-                </a>
-              </li>
-              <li>
                 <a
                   href="#gallery"
                   className="hover:text-[#c5a059] transition-colors"
                 >
                   Media
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="hover:text-[#c5a059] transition-colors"
-                >
-                  Contact
                 </a>
               </li>
             </ul>
