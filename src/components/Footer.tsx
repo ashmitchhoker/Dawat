@@ -1,4 +1,4 @@
-import { Phone, Mail, Instagram } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 export const Footer = () => {
   return (
     <footer className="bg-[#0a192f] text-white pt-20 pb-8 border-t border-gray-900 overflow-hidden">
@@ -112,9 +112,13 @@ export const Footer = () => {
               <div className="flex flex-col space-y-4 pt-4">
                 <a
                   href="#"
-                  className="w-8 h-8 rounded-full bg-[#c5a059] flex items-center justify-center text-[#0a192f] hover:bg-white hover:text-[#0a192f] transition-all"
+                  className="block w-fit hover:opacity-80 transition-opacity"
                 >
-                  <Instagram size={16} />
+                  <img
+                    src="/images/logo/Instagram.svg"
+                    alt="Instagram"
+                    className="h-8"
+                  />
                 </a>
               </div>
             </div>
