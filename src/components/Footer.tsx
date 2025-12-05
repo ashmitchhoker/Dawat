@@ -35,7 +35,6 @@ export const Footer = () => {
                   style={{ transform: "scaleX(1.15)" }}
                 />
               </a>
-              
             </div>
           </div>
 
@@ -103,7 +102,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="flex-shrink-0 text-[#c5a059]" size={16} />
-                <p>+91 7622 01 9001</p>
+                <p>9574442121</p>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="flex-shrink-0 text-[#c5a059]" size={16} />
