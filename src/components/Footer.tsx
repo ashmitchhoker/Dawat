@@ -89,11 +89,17 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="flex-shrink-0 text-[#c5a059]" size={16} />
-                <p>9574442121</p>
+                <a
+                  href="tel:+919574442121"
+                  className="hover:text-[#c5a059]"
+                  aria-label="Call Dawat Restaurant"
+                >
+                  9574442121
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="flex-shrink-0 text-[#c5a059]" size={16} />
-                <p>info@dawatreastaurant.com</p>
+                <p>dawatrestaurant11@gmail.com</p>
               </div>
 
               <div className="flex flex-col space-y-4 pt-4">
