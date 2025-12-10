@@ -21,7 +21,17 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <div className="bg-white rounded-2xl p-6 shadow-2xl">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-2xl font-normal text-gray-800">Location</h3>
+              <h3 className="text-2xl font-normal text-gray-800">
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=23.196036,72.6333888"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-600 transition-colors underline"
+                  aria-label="Get directions to Dawat Restaurant"
+                >
+                  Click for Directions
+                </a>
+              </h3>
               <MapPin className="text-gray-800" size={24} />
             </div>
             <div className="w-full h-[300px] bg-gray-100 rounded-lg overflow-hidden border border-gray-200">

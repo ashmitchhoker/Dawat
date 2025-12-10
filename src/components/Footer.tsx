@@ -81,11 +81,19 @@ export const Footer = () => {
             </h4>
             <div className="space-y-4 text-sm text-gray-300">
               <div className="flex items-start gap-3">
-                <p className="leading-relaxed">
-                  Infocity, Gandhinagar,
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=23.196036,72.6333888"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-400 transition-colors underline"
+                  aria-label="Get directions to Dawat Restaurant"
+                >
+                  Click for Directions
                   <br />
-                  Gujarat 382007
-                </p>
+                  <span className="text-xs text-gray-400 no-underline">
+                    Infocity, Gandhinagar, Gujarat 382007
+                  </span>
+                </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="flex-shrink-0 text-[#c5a059]" size={16} />
