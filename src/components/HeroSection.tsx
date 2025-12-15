@@ -1,11 +1,10 @@
-
 export const HeroSection = () => {
   return (
     <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
           src="/images/gallery/r23.jpg"
-          alt="Delicious Mughlai Food"
+          alt="Dawat Restaurant Gandhinagar - Authentic Non-Veg & Veg Cuisine"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f]/70 via-[#0a192f]/30 to-[#0a192f]"></div>
@@ -14,16 +13,16 @@ export const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-64 md:mt-80">
         <div className="mb-12 flex justify-center">
           <div className="flex flex-col items-center gap-6">
-            <div className="flex flex-col items-center">
+            <h1 className="flex flex-col items-center">
               <span className="text-4xl md:text-5xl font-serif font-bold bg-gradient-to-r from-[#c5a059] to-[#d4af37] bg-clip-text text-transparent">
-                Dawat
+                Dawat Restaurant
               </span>
               <span className="text-[#c5a059] text-sm md:text-base font-light tracking-[0.2em] uppercase mt-2">
-                Restaurant
+                Gandhinagar
               </span>
-            </div>
+            </h1>
             <div className="bg-gradient-to-r from-[#c5a059] to-[#d4af37] text-[#0a192f] px-10 py-2 font-bold uppercase tracking-[0.3em] text-xs md:text-sm w-full max-w-md shadow-2xl">
-              Veg & Non Veg. Food
+              Authentic Non-Veg & Veg Cuisine
             </div>
           </div>
         </div>
