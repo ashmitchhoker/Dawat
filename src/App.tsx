@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { Navigation } from "./components/Navigation";
 import { HeroSection } from "./components/HeroSection";
 import { SafetyBanner } from "./components/SafetyBanner";
@@ -38,6 +39,7 @@ function App() {
       <TestimonialsSection />
       <ContactSection />
       <Footer />
+      <Analytics />
     </div>
   );
 }
