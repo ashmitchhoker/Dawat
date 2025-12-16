@@ -1,0 +1,27 @@
+{
+  "name": "Dawat Restaurant Gandhinagar",
+  "short_name": "Dawat",
+  "description": "Authentic vegetarian and non-vegetarian cuisine in Gandhinagar since 2006.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f9f7f2",
+  "theme_color": "#0a192f",
+  "icons": [
+    {
+      "src": "/images/logo/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["food", "restaurant"],
+  "screenshots": [
+    {
+      "src": "/images/gallery/r23.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ]
+}
